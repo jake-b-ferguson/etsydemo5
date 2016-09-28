@@ -81,8 +81,8 @@ Rails.application.configure do
   storage: :s3,
   s3_credentials: {
     bucket: ENV.fetch('etsydemo2016jf'),
-    access_key_id: ENV.fetch('AKIAJNKUJYW24C3RFRYQ'),
-    secret_access_key: ENV.fetch('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'),
+    access_key_id: ENV.fetch('APP_KEY_ID'),
+    secret_access_key: ENV.fetch('SECRET_ACCESS_KEY'),
     s3_region: ENV.fetch('US_Standard'),
   }
 }
